@@ -1,4 +1,4 @@
-aimport os
+import os
 
 
 # execute the find ~/ function in terminal
