@@ -1,4 +1,4 @@
-import os
+aimport os
 
 
 # execute the find ~/ function in terminal
@@ -16,7 +16,7 @@ terminal_string = terminal_string.split('/')
 path = []
 for i in terminal_string:
     # write here the file/folder you want to find
-    if i == 'User':
+    if i == 'example.txt':
         place = terminal_string.index(i) - 1
         while terminal_string[place] != 'Users':
             path.append(terminal_string[place] + '/')
